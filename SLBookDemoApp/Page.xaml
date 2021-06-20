@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="SLBookDemoApp.Page"
+    xmlns="http://schemas.microsoft.com/client/2007" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:local="clr-namespace:SLMitsuControls;assembly=SLMitsuControls"
+    Width="400" Height="300" Loaded="UserControl_Loaded">
+	<Grid>
+		<local:UCBook x:Name="book" Margin="50" />
+	</Grid>
+</UserControl>
